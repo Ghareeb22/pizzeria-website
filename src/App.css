@@ -6,7 +6,6 @@
 }
 
 .home,
-.products,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -30,7 +29,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
 }
 
 .sign-up {
@@ -44,11 +42,11 @@
 
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: rgb(109, 109, 109);
+  background-color: rgb(255, 255, 255);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: rgb(28, 108, 128);
 }
 
 ::-webkit-scrollbar-thumb:hover {
